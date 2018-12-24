@@ -1,7 +1,7 @@
 name: houses
 channels:
-  - fastai
   - pytorch
+  - fastai
   - defaults
 dependencies:
   - asn1crypto=0.24.0=py37_0
@@ -32,7 +32,7 @@ dependencies:
   - idna=2.7=py37_0
   - intel-openmp=2019.1=144
   - ipykernel=5.1.0=py37h39e3cac_0
-  - ipython=7.1.1=py37h39e3cac_0
+  - ipython=7.2.0=py37h39e3cac_0
   - ipython_genutils=0.2.0=py37_0
   - ipywidgets=7.4.2=py37_0
   - jedi=0.13.1=py37_0
@@ -66,7 +66,7 @@ dependencies:
   - murmurhash=1.0.1=py37he6710b0_0
   - nbconvert=5.3.1=py37_0
   - nbformat=4.4.0=py37_0
-  - ncurses=6.1=hf484d3e_0
+  - ncurses=6.1=he6710b0_1
   - ninja=1.8.2=py37h6bb024c_1
   - notebook=5.7.2=py37_0
   - numexpr=2.6.8=py37hd89afb7_0
@@ -74,6 +74,7 @@ dependencies:
   - numpy-base=1.15.4=py37h81de0dd_0
   - olefile=0.46=py37_0
   - openssl=1.0.2p=h14c3975_0
+  - packaging=18.0=py37_0
   - pandas=0.23.4=py37h04863e7_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
@@ -132,20 +133,29 @@ dependencies:
   - zeromq=4.2.5=hf484d3e_1
   - zlib=1.2.11=h7b6447c_3
   - dataclasses=0.6=py_0
-  - fastai=1.0.28=py_1
-  - fastprogress=0.1.15=py_0
+  - fastai=1.0.38=py_1
+  - fastprogress=0.1.18=py_0
+  - nvidia-ml-py3=7.352.0=py_0
+  - torchvision=0.2.1=py_0
   - torchvision-nightly=0.2.1=py_0
   - cuda92=1.0=0
+  - pytorch=1.0.0=py3.7_cuda9.0.176_cudnn7.4.1_1
   - pytorch-nightly=1.0.0.dev20181123=py3.7_cuda9.2.148_cudnn7.4.1_0
   - pip:
     - astunparse==1.6.1
+    - atomicwrites==1.2.1
+    - attrs==18.2.0
     - colour==0.1.5
     - geojson==2.4.1
     - lxml==4.2.5
     - markdown==3.0.1
+    - more-itertools==4.3.0
     - mpld3==0.3
     - msgpack==0.5.6
-    - pixiedust==1.1.14
-    - torch==1.0.0.dev20181123
-    - torchvision==0.2.1
+    - pixiedust==1.1.15
+    - pluggy==0.8.0
+    - py==1.7.0
+    - pytest==4.0.2
+    - torch==1.0.0
 prefix: /home/matan/miniconda3/envs/houses
+
